@@ -18,3 +18,5 @@ $message = user_login($username, $password);
 }
 header("Location: two-factor-voice.php?message=" .
 urlencode($message));
+exit;
+}
